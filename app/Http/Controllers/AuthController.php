@@ -20,7 +20,7 @@ class AuthController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        return response()->json(['message' => 'Usuário registrado com sucesso!']);
+        return response()->json(['message' => 'Usuário Registrado com sucesso!']);
     }
 
     public function login(Request $request)
